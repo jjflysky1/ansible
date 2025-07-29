@@ -1,5 +1,6 @@
 - name: Install htop on target servers
-  hosts: all
+#  hosts: all
+  hosts: webservers
   become: yes
   tasks:
 
