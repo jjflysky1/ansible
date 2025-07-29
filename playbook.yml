@@ -1,0 +1,6 @@
+- name: Git으로 관리하는 Ansible 예제
+  hosts: local
+  gather_facts: false
+  tasks:
+    - name: Hello 메시지 출력
+      command: echo "Hello, Git-Ansible!"
